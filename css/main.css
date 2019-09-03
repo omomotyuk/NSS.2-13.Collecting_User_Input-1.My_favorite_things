@@ -1,0 +1,27 @@
+/*
+//
+*/
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+/* The CSS box-sizing property allows us to include the padding and border in an element's total width and height. */
+html {
+    box-sizing: border-box;
+}
+
+/* */
+.main-form {
+    display: flex;
+    flex-flow: column;
+}
+
+.form-item {
+    border: 1px solid black;
+    border-radius: .3em;
+
+    background-color: lightsteelblue;
+
+    margin: .5em;
+    padding: .3em;
+}

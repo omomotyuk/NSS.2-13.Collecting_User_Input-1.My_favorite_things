@@ -10,18 +10,26 @@
 <body>
 
     <!-- -->
-    <fieldset>
-        <label for="thing">Favorite thing</label>
-        <input type="text" id="thing" placeholder="Enter name of a favorite thing" autofocus />
-    </fieldset>
-    <fieldset>
-        <label for="location">Location where to purchase it</label>
-        <input type="text" id="location" placeholder="Location" />
-    </fieldset>
+    <main class="main-form">
 
-    <button id="saveEntry" name="Save to Wishlist">Save info</button>
+        <fieldset class="form-item">
+            <label for="thing">Favorite thing: </label>
+            <input type="text" id="thing" placeholder="Enter name of a favorite thing" autofocus />
+        </fieldset>
 
-    <article id="thingList"> </article>
+        <fieldset class="form-item">
+            <label for="location">Location where to purchase it: </label>
+            <input type="text" id="location" placeholder="Location" />
+        </fieldset>
+
+        <fieldset class="form-item">
+            <button id="saveEntry" name="Save to Wishlist">Save info</button>
+        </fieldset>
+
+    </main>
+
+    <!-- -->
+    <article id="thingList"></article>
 
     <!-- -->
     <script src="src/main.js"></script>
