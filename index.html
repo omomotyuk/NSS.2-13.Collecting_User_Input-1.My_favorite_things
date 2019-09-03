@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Practice: </title>
+    <title>Practice: These are a few of my favorite things</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    
+
+    <!-- -->
+    <fieldset>
+        <label for="thing">Favorite thing</label>
+        <input type="text" id="thing" placeholder="Enter name of a favorite thing" autofocus />
+    </fieldset>
+    <fieldset>
+        <label for="location">Location where to purchase it</label>
+        <input type="text" id="location" placeholder="Location" />
+    </fieldset>
+
+    <button id="saveEntry" name="Save to Wishlist">Save info</button>
+
+    <article id="thingList"> </article>
+
+    <!-- -->
     <script src="src/main.js"></script>
+
 </body>
 </html>
